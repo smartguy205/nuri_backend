@@ -1,0 +1,251 @@
+CRITICAL - 2023-04-03 08:52:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:53:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:56:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:57:33 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:57:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:57:36 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 08:58:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-04-03 07:18:59 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(37): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 07:21:51 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('{"name":"admin2","email":"admin2@gmail.com","password":"$2y$10$X29l1RNYcdIeq5vTzzG3p.9oXm.xxwOkjb84KOj.lx7byHfnQpTAi"}', 'insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert('{"name":"admin2","email":"admin2@gmail.com","password":"$2y$10$X29l1RNYcdIeq5vTzzG3p.9oXm.xxwOkjb84KOj.lx7byHfnQpTAi"}', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('{"name":"admin2","email":"admin2@gmail.com","password":"$2y$10$X29l1RNYcdIeq5vTzzG3p.9oXm.xxwOkjb84KOj.lx7byHfnQpTAi"}', false)
+ 4 APPPATH\Controllers\SignupController.php(33): CodeIgniter\BaseModel->save('{"name":"admin2","email":"admin2@gmail.com","password":"$2y$10$X29l1RNYcdIeq5vTzzG3p.9oXm.xxwOkjb84KOj.lx7byHfnQpTAi"}')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 07:32:46 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(42): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:13:49 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:14:47 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:15:02 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:17:42 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:17:45 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:18:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:18:07 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:18:40 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:18:46 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 11:18:47 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 18:27:52 --> Call to undefined function App\Controllers\json_endcode()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 18:28:56 --> Call to undefined function App\Controllers\json_endcode()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 18:28:59 --> Call to undefined function App\Controllers\json_endcode()
+in APPPATH\Controllers\AuthController.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:06:51 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:08:57 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:10:33 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:13:59 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:14:37 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:14:43 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:21:41 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\AuthController.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'C:\\xampp\\htdocs\\nuri\\app\\Controllers\\AuthController.php', 51, [])
+ 2 APPPATH\Controllers\AuthController.php(51): json_decode([])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:25:20 --> Call to a member function post() on null
+in APPPATH\Controllers\AuthController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:25:49 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\AuthController.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'C:\\xampp\\htdocs\\nuri\\app\\Controllers\\AuthController.php', 52, [])
+ 2 APPPATH\Controllers\AuthController.php(52): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:26:03 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\AuthController.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'C:\\xampp\\htdocs\\nuri\\app\\Controllers\\AuthController.php', 52, [])
+ 2 APPPATH\Controllers\AuthController.php(52): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:30:48 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\AuthController.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'C:\\xampp\\htdocs\\nuri\\app\\Controllers\\AuthController.php', 50, [])
+ 2 APPPATH\Controllers\AuthController.php(50): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
+CRITICAL - 2023-04-03 19:48:00 --> array_merge(): Expected parameter 2 to be an array, object given
+in APPPATH\Controllers\AuthController.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): Expected parameter 2 to be an array, object given', 'C:\\xampp\\htdocs\\nuri\\app\\Controllers\\AuthController.php', 80, [...])
+ 2 APPPATH\Controllers\AuthController.php(80): array_merge([...], Object(CodeIgniter\Session\Session))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(75): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\nuri\\public\\index.php')
